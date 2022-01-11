@@ -1,0 +1,52 @@
+{
+    "dishes" : [
+        {
+            "id" : 1,
+            "image" : "./assets/images/plate__bacon-eggs.png",
+            "name" : "Bacon and eggs",
+            "price" : "4.50"
+        },
+        {
+            "id" : 2,
+            "image" : "./assets/images/plate__chicken-salad.png",
+            "name" : "Chicken Salad",
+            "price" : "4.50"
+        },
+        {
+            "id" : 3,
+            "image" : "./assets/images/plate__fish-sticks-fries.png",
+            "name" : "Fish sticks fried",
+            "price" : "4.50"
+        },
+        {
+            "id" : 4,
+            "image" : "./assets/images/plate__french-fries.png",
+            "name" : "French fries and ketchup",
+            "price" : "4.50"
+        },
+        {
+            "id" : 5,
+            "image" : "./assets/images/plate__ravioli.png",
+            "name" : "Ravioli",
+            "price" : "4.50"
+        },
+        {
+            "id" : 6,
+            "image" : "./assets/images/plate__salmon-vegetables.png",
+            "name" : "Salmon & Vegetables",
+            "price" : "4.50"
+        },
+        {
+            "id" : 7,
+            "image" : "./assets/images/plate__spaghetti-meat-sauce.png",
+                "name" : "Spaghetti and Meat Sauce",
+                "price" : "4.50"
+        },
+        {
+            "id" : 8,
+            "image" : "./assets/images/plate__tortellini.png",
+            "name" : "Tortellini",
+            "price" : "4.50"
+        }
+    ]
+}
