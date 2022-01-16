@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './styles/main.css';
 import MenuElement from './components/MenuElement';
-import CartElement from './components/CartElement';
+import Cart from './components/Cart';
 import dishes from './assets/data/data.json';
 
 function App() {
@@ -23,18 +23,7 @@ function App() {
           </div>
           <div className="cart__container">
               <div className="cart__container--title">Your Cart</div>
-              <CartElement />
-              <div className="cart__total">
-                  <div className="cart__total--subtotal">
-                      Subtotal: PRICE
-                  </div>
-                  <div className="cart__total--tax">
-                      Tax: PRICE
-                  </div>
-                  <div className="cart__total--total">
-                      Total: PRICE
-                  </div>
-              </div>
+              <Cart/>
           </div>
       </div>
     </>
